@@ -1,0 +1,28 @@
+# Executables
+*.exe
+*.out  # Common executable extension on Linux/macOS
+ascii_converter # Specific executable name from our project
+ 
+# Object files
+*.o
+*.obj
+
+# Debugger files
+*.dSYM/
+*.su
+
+# Build directories
+build/
+bin/
+
+# Output files from the program
+output.txt # The default output file name
+*.ascii.txt # If you use a pattern for output files
+
+# stb_image.h (if you prefer not to track it, but often it's included)
+# stb_image.h
+
+# Other temporary files
+*~
+*.swp
+.vscode/ # Optional: ignore VS Code settings if not shared among developers
